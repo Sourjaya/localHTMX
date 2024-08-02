@@ -23,7 +23,7 @@ func Base() templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"../../public/output.css\"><script src=\"wasm_exec.js\"></script><script src=\"start_worker.js\"></script><script src=\"https://unpkg.com/htmx.org@1.9.9\" defer></script><script src=\"https://unpkg.com/htmx.org/dist/ext/multi-swap.js\" defer></script><title>Counter</title></head><body class=\"h-screen w-screen\">")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"css/output.css\"><script src=\"wasm_exec.js\"></script><script src=\"start_worker.js\"></script><script src=\"https://unpkg.com/htmx.org@1.9.9\" defer></script><script src=\"https://unpkg.com/htmx.org/dist/ext/multi-swap.js\" defer></script><title>Counter</title></head><body class=\"h-screen w-screen\">")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

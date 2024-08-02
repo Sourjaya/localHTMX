@@ -19,6 +19,7 @@ func Start() {
 		return componnets.Render(c.Request().Context(), c.Response().Writer)
 	})
 
-	e.Static("/", "../../public/")
+	e.Static("/", "../../public")
+	e.Static("/css", "../../css")
 	e.Logger.Fatal(e.Start(":4000"))
 }

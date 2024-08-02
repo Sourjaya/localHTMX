@@ -19,7 +19,8 @@ func Start() {
 		return componnets.Render(c.Request().Context(), c.Response().Writer)
 	})
 
-	e.Static("/", "../../public/")
+	e.Static("/", "../../public")
+	e.Static("/css", "../../css")
 	wasmhttp.Serve(e.Server.Handler)
 	select {}
 }
